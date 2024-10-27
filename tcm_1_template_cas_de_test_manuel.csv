@@ -1,0 +1,16 @@
+Header;;
+REQ_ID;Req-10;
+STATUS;Ready;
+;;
+Description;;
+Step Name;Description;Expected Results
+01_Precondition_01;connect_to_internet;
+01_Precondition_02;"Open site ""www.erp.com""";
+01_Precondition_03;create an account;"Check the account was created
+"
+02_Action_01;enter username;"check the username was entred
+"
+02_Action_02;enter password;check the password was entred
+02_Action_03;"click button ""sign in""";"check the acces to the account
+"
+03_Postconditions_01;clean up the environment ;
